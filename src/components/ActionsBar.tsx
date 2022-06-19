@@ -37,7 +37,7 @@ const ActionBtn: React.FC<ButtonHTMLAttributes<any> & { tooltip: string }> = (
   );
 };
 
-const Actions: React.FC<{
+const ActionsBar: React.FC<{
   volumeVisible: boolean;
   setVolumeVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }> = ({ volumeVisible, setVolumeVisible }) => {
@@ -84,4 +84,4 @@ const Actions: React.FC<{
   );
 };
 
-export default Actions;
+export default ActionsBar;

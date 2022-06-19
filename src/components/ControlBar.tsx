@@ -19,7 +19,7 @@ const ControlBtn: React.FC<ButtonHTMLAttributes<any>> = (props) => {
   );
 };
 
-const Controls = () => {
+const ControlBar = () => {
   const [playing, setPlaying] = useState(false);
   const [repeat, setRepeat] = useState(false);
   const [shuffle, setShuffle] = useState(false);
@@ -54,4 +54,4 @@ const Controls = () => {
   );
 };
 
-export default Controls;
+export default ControlBar;

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Actions from "./components/Actions";
-import Controls from "./components/Controls";
+import ActionsBar from "./components/ActionsBar";
+import ControlBar from "./components/ControlBar";
 import Display from "./components/Display";
 
 const App = () => {
@@ -15,8 +15,8 @@ const App = () => {
     >
       <div className="w-full max-w-sm p-4 rounded-md shadow-md bg-gradient-to-b from-indigo-900 to-gray-900">
         <Display />
-        <Controls />
-        <Actions
+        <ControlBar />
+        <ActionsBar
           volumeVisible={volumeVisible}
           setVolumeVisible={setVolumeVisible}
         />
